@@ -29,5 +29,16 @@ public class Annotation_practice {
         System.out.println("This will execute after every test");
     }
 
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("This will execute before test suite");
+    }
+
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("This will execute after test suite");
+    }
+
+
 
 }
