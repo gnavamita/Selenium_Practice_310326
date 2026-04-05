@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/a/IdeaProjects/Selenium_Practice_310326/src/test/java/ui/GroupDemoTest.java">
+        <classes>
+            <class name="ui.GroupDemoTest">
+                <methods>
+                    <include name="aTest1"/>
+                    <include name="bTest2"/>
+                    <include name="bTest4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/a/IdeaProjects/Selenium_Practice_310326/src/test/java/ui/LoginTest.java">
+        <classes>
+            <class name="ui.LoginTest">
+                <methods>
+                    <include name="aTest1"/>
+                    <include name="aTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

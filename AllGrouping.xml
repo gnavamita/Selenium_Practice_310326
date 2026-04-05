@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Tests ">
+    <test verbose="2" preserve-order="true" name="Functional Test">
+        <classes>
+            <class name="ui.GroupDemoTest">
+                <methods>
+                    <include name="aTest1"/>
+                    <include name="bTest2"/>
+                    <include name="bTest4"/>
+                </methods>
+            </class>
+            <class name="ui.LoginTest">
+                <methods>
+                    <include name="aTest1"/>
+                    <include name="aTest2"/>
+                </methods>
+            </class>
+            <class name="ui.VerifyTitleTest">
+                <methods>
+                    <include name="TitleTest"/>
+                </methods>
+            </class>
+            <class name="ui.title2">
+                <methods>
+                    <include name="TitleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
